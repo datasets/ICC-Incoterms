@@ -1,0 +1,37 @@
+{
+	"name": "icc-incoterms",
+        "title": "International Chamber of Commerce Incoterms",
+        "license": "ODC-PDDL-1.0",
+	"description": "Current Incoterms used in international sale of goods as defined by international chamber of commerce ",
+	"version": "2010",
+	"sources": [{
+	  "name": "International Chamber of Commerce",
+      "web": "http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2010/"
+  },{
+	  "name": "Gov.uk",
+      "web": "https://www.gov.uk/incoterms-international-commercial-terms/overview"
+  }],
+	"resources": [
+	  {
+	    "path": "data/data.csv",
+		"schema": {
+		  "fields": [
+		    {
+			  "name": "Term",
+			  "type": "string",
+			  "description": "A 3 Digit code representing the incoterm",
+			  "pattern": "[A-Z]{3}"
+			},
+			{
+			  "name": "Name",
+			  "type": "string"
+		    },
+			{
+			  "name": "Description",
+			  "type": "string"
+			}
+		  ]
+		}	  
+	  }
+	]
+}
