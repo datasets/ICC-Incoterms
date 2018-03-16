@@ -1,7 +1,13 @@
 {
 	"name": "icc-incoterms",
-        "title": "International Chamber of Commerce Incoterms",
-        "license": "ODC-PDDL-1.0",
+  "title": "International Chamber of Commerce Incoterms",
+	"licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
 	"description": "Current Incoterms used in international sale of goods as defined by international chamber of commerce ",
 	"version": "2010",
 	"sources": [
