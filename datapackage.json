@@ -1,49 +1,50 @@
 {
-	"name": "icc-incoterms",
+  "name": "icc-incoterms",
   "title": "International Chamber of Commerce Incoterms",
-	"licenses": [
+  "licenses": [
     {
       "name": "ODC-PDDL-1.0",
       "path": "http://opendatacommons.org/licenses/pddl/",
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
-	"description": "Current Incoterms used in international sale of goods as defined by international chamber of commerce ",
-	"version": "2010",
-	"sources": [
-		{
-		  "name": "International Chamber of Commerce",
-    	"path": "http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2010/",
-			"title": "International Chamber of Commerce"
-  	},
-		{
-	  	"name": "Gov.uk",
+  "description": "Current Incoterms used in international sale of goods as defined by international chamber of commerce ",
+  "version": "2010",
+  "sources": [
+    {
+      "name": "International Chamber of Commerce",
+      "path": "http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2010/",
+      "title": "International Chamber of Commerce"
+    },
+    {
+      "name": "Gov.uk",
       "path": "https://www.gov.uk/incoterms-international-commercial-terms/overview",
-			"title": "Gov.uk"
-  	}
-	],
-	"resources": [
-	  {
-	    "path": "data/data.csv",
-			"name": "data",
-			"schema": {
-			  "fields": [
-			    {
-					  "name": "Term",
-					  "type": "string",
-					  "description": "A 3 Digit code representing the incoterm",
-					  "pattern": "[A-Z]{3}"
-					},
-					{
-					  "name": "Name",
-					  "type": "string"
-			    },
-					{
-					  "name": "Description",
-					  "type": "string"
-					}
-			  ]
-			}	  
-	  }
-	]
+      "title": "Gov.uk"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/data.csv",
+      "name": "data",
+      "schema": {
+        "fields": [
+          {
+            "name": "Term",
+            "type": "string",
+            "description": "A 3 Digit code representing the incoterm",
+            "pattern": "[A-Z]{3}"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "Description",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "collection": "reference-data"
 }
