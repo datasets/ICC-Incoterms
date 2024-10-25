@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/ICC-Incoterms"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/ICC-Incoterms"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 International Commercial Terms (‘Incoterms’) are internationally recognised standard trade terms used in sales contracts. They’re used to make sure buyer and seller know:
 
