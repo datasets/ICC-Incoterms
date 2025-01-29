@@ -8,7 +8,7 @@ International Commercial Terms (‘Incoterms’) are internationally recognised 
 
 ## Data
 
-The current set of Incoterms is Incoterms 2010. A copy of the full terms is available from http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2010/
+The current set of Incoterms is Incoterms 2020. A copy of the full terms is available from [http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2020/](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/)
 
 ## License
 
