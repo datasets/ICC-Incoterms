@@ -10,6 +10,10 @@ International Commercial Terms (‘Incoterms’) are internationally recognised 
 
 The current set of Incoterms is Incoterms 2020. A copy of the full terms is available from [http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2020/](https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/)
 
+## Automation
+
+Dataset doesn't need regular updates.
+
 ## License
 
 This data is made available under the Public Domain Dedication and License version v1.0 whose full text can be found at http://opendatacommons.org/licenses/pddl/ - See more at: http://opendatacommons.org/guide/#sthash.97PSVxmh.dpuf
