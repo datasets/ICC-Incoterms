@@ -1,46 +1,44 @@
 {
   "name": "icc-incoterms",
   "title": "International Chamber of Commerce Incoterms",
+  "description": "Current Incoterms (Incoterms 2020) used in international sale of goods as defined by the International Chamber of Commerce. Includes the 11 standard trade terms covering risk transfer, cost responsibility, and delivery obligations.",
+  "version": "2020",
   "licenses": [
     {
       "name": "ODC-PDDL-1.0",
-      "path": "http://opendatacommons.org/licenses/pddl/",
+      "path": "https://opendatacommons.org/licenses/pddl/",
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
-  "description": "Current Incoterms used in international sale of goods as defined by international chamber of commerce ",
-  "version": "2010",
   "sources": [
     {
       "name": "International Chamber of Commerce",
-      "path": "http://www.iccwbo.org/products-and-services/trade-facilitation/incoterms-2010/",
-      "title": "International Chamber of Commerce"
-    },
-    {
-      "name": "Gov.uk",
-      "path": "https://www.gov.uk/incoterms-international-commercial-terms/overview",
-      "title": "Gov.uk"
+      "path": "https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/",
+      "title": "Incoterms 2020 — International Chamber of Commerce"
     }
   ],
   "resources": [
     {
       "path": "data/data.csv",
       "name": "data",
+      "description": "The 11 Incoterms 2020 trade terms, each with a 3-letter code, full name, and plain-language description of delivery obligations and risk transfer.",
       "schema": {
         "fields": [
           {
             "name": "Term",
             "type": "string",
-            "description": "A 3 Digit code representing the incoterm",
+            "description": "3-letter code identifying the Incoterm (e.g. EXW, FOB, CIF).",
             "pattern": "[A-Z]{3}"
           },
           {
             "name": "Name",
-            "type": "string"
+            "type": "string",
+            "description": "Full name of the Incoterm (e.g. Ex-Works, Free On Board)."
           },
           {
             "name": "Description",
-            "type": "string"
+            "type": "string",
+            "description": "Plain-language explanation of the delivery point, risk transfer, and cost obligations for the term."
           }
         ]
       }
