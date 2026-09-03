@@ -41,6 +41,22 @@
           {
             "name": "Description",
             "type": "string"
+          },
+          {
+            "name": "mode_of_transport",
+            "type": "string",
+            "description": "Transport mode restriction: sea_only (FAS, FOB, CFR, CIF - sea and inland waterway) or any (all other terms - any mode incl. air, road, rail, container)",
+            "constraints": {
+              "enum": [
+                "any",
+                "sea_only"
+              ]
+            }
+          },
+          {
+            "name": "risk_transfer_point",
+            "type": "string",
+            "description": "Short phrase describing where risk transfers from seller to buyer, derived from Description"
           }
         ]
       }
